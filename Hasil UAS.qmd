@@ -7,7 +7,6 @@ number-sections: true
 format:
   html: default
   docx: default
-bibliography: references.bib
 ---
 
 ![](images/poltekapp.jpg){fig-align="center"}
