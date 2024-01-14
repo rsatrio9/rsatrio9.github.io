@@ -146,7 +146,7 @@ Berdasarkan Gambar 1 diatas dapat dilihat bahwa terjadi peningkatan pada tahun 2
 
 ![Gambar 2. Inflasi](Grafik%20Inflasi.png){width="495"}
 
-Dapat dilihat pada Gambar 2 bahwa telah terjadi peningkatan pada tahun 2013 dan 2013 pula yang menduduki peringkat tertinggi dalam kurun waktu 2012-2019 yaitu sebesar 8,38% . Menurut [@langi2014]"Kenaikan inflasi dapat menyebabkan persentase pertumbuhan ekonomi menjadi tidak berarti yang kemudian berdampak pada naiknya angka kemiskinan". Hal tersebut juga dapat menyebabkan peningkatan IHK, yang mana kenaikan IHK juga berdampak pada kenaikan suku bunga, meningkatkan pertumbuhan uang beredar, dan juga meningkatkan daya tarik mata uang, dan meningkatkan inflasi. Menurut [@langi2014] "Ekspansi kredit dapat dihambat oleh peningkatan suku bunga, selain itu juga dapat mengurangi daya beli masyarakat untuk konsumsi rumah tangga. Penurunan suku bunga kredit akan menurunkan biaya modal perusahaan untuk melakukan investasi dalam meningkatkan aktivitas konsumsi dan investasi". Menurut [@langi2014] “Pertumbuhan uang beredar mengakibatkan kenaikan harga-harga barang dan jasa yang akhirnya dapat menyebabkan masyarakat ingin mendapatkan barang dan jasa yang diinginkan melebih output produksi”. Jika barang dan jasa mengalami peningkatan, maka jumlah uang yang beredar akan meningkat. Menurut [@langi2014] “Perubahan kurs rupiah terhadap kurs USD dipengaruhi oleh banyak faktor salah satunya pertumbuhan ekonomi”. Jika kurs rupiah terus melemah maka akan membuat para produsen kesulitan untuk mendapatkan bahan baku dan barang modal yang mempunyai kandungan impor tinggi sehingga akan berdampak pada naiknya biaya impor barang dalam keperluan proses produksi sehingga mempengaruhi tingkat harga domestik yang merupakan cerminan dari naiknya IHK.
+Dapat dilihat pada Gambar 2 bahwa telah terjadi peningkatan pada tahun 2013 dan 2013 pula yang menduduki peringkat tertinggi dalam kurun waktu 2012-2019 yaitu sebesar 8,38% . Kenaikan inflasi dapat menyebabkan persentase pertumbuhan ekonomi menjadi tidak berarti yang kemudian berdampak pada naiknya angka kemiskinan. Hal tersebut juga dapat menyebabkan peningkatan IHK, yang mana kenaikan IHK juga berdampak pada kenaikan suku bunga, meningkatkan pertumbuhan uang beredar, dan juga meningkatkan daya tarik mata uang, dan meningkatkan inflasi. Ekspansi kredit dapat dihambat oleh peningkatan suku bunga, selain itu juga dapat mengurangi daya beli masyarakat untuk konsumsi rumah tangga. Penurunan suku bunga kredit akan menurunkan biaya modal perusahaan untuk melakukan investasi dalam meningkatkan aktivitas konsumsi dan investasi. Pertumbuhan uang beredar mengakibatkan kenaikan harga-harga barang dan jasa yang akhirnya dapat menyebabkan masyarakat ingin mendapatkan barang dan jasa yang diinginkan melebih output produksi. Jika barang dan jasa mengalami peningkatan, maka jumlah uang yang beredar akan meningkat. Perubahan kurs rupiah terhadap kurs USD dipengaruhi oleh banyak faktor salah satunya pertumbuhan ekonomi. Jika kurs rupiah terus melemah maka akan membuat para produsen kesulitan untuk mendapatkan bahan baku dan barang modal yang mempunyai kandungan impor tinggi sehingga akan berdampak pada naiknya biaya impor barang dalam keperluan proses produksi sehingga mempengaruhi tingkat harga domestik yang merupakan cerminan dari naiknya IHK.
 
 ### Analisis Masalah
 
@@ -208,14 +208,12 @@ Berdasarkan hasil penelitian diatas, dapat ditarik kesimpulan sebagai berikut:
 
 ## Referensi
 
-Karlina, B. (2017). PENGARUH TINGKAT INFLASI, INDEKS HARGA KONSUMEN TERHADAP PDB DI INDONESIA PADA TAHUN 2011-2015. Jurnal Ekonomika dan Manajemen, 6(1), 16–27. https://doi.org/DOI: https://dx.doi.org/10.36080/jem.v6i1.335 
+Karlina, B. (2017). PENGARUH TINGKAT INFLASI, INDEKS HARGA KONSUMEN TERHADAP PDB DI INDONESIA PADA TAHUN 2011-2015. Jurnal Ekonomika dan Manajemen, 6(1), 16–27. https://doi.org/DOI: https://dx.doi.org/10.36080/jem.v6i1.335
 
-Langi, T., Masinambow, V., & Siwu, H. (2014). ANALISIS PENGARUH SUKU BUNGA BI, JUMLAH UANG BEREDAR, DAN TINGKAT KURS TERHADAP TINGKAT INFLASI DI INDONESIA. Jurnal Berkala Ilmiah Efisiensi, 14(2), 44–58. 
+Langi, T., Masinambow, V., & Siwu, H. (2014). ANALISIS PENGARUH SUKU BUNGA BI, JUMLAH UANG BEREDAR, DAN TINGKAT KURS TERHADAP TINGKAT INFLASI DI INDONESIA. Jurnal Berkala Ilmiah Efisiensi, 14(2), 44–58.
 
-Simanungkalit, E. (2020). PENGARUH INFLASI TERHADAP PERTUMBUHAN EKONOMI DI INDONESIA. Journal of Management Small and Medium Enterprises, 13(3), 327–340. https://doi.org/10.35508/jom.v13i3.3311 
+Simanungkalit, E. (2020). PENGARUH INFLASI TERHADAP PERTUMBUHAN EKONOMI DI INDONESIA. Journal of Management Small and Medium Enterprises, 13(3), 327–340. https://doi.org/10.35508/jom.v13i3.3311
 
-SUMANTRI, F., & Latifah, U. (2019). Faktor-faktor yang Mempengaruhi Indeks Harga Konsumen. WIDYA CIPTA Jurnal Sekretari dan Manajemen, 3(1), 25–34. 
+SUMANTRI, F., & Latifah, U. (2019). Faktor-faktor yang Mempengaruhi Indeks Harga Konsumen. WIDYA CIPTA Jurnal Sekretari dan Manajemen, 3(1), 25–34.
 
 TANIAL, B., SUMANTRI, F., & ZAHRANI, P. (t.t.). Pengaruh Jumlah Uang Beredar, Tingkat Suku Bunga Dan Indeks Harga Konsumen Terhadap Inflasi Periode 2017- 2021. Jurnal Bisnis Kompetif, 1(3). https://doi.org/10.35446/bisniskompetif.v1i3.1190
-
-
