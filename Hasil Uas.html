@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Robby Satrio">
+<meta name="dcterms.date" content="2024-01-14">
+
+<title>Melihat Pengaruh Inflasi dan Jumlah Uang Beredar Terhadap Indeks Harga Konsumen Pada Tahun 2020-2022</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="Hasil UAS_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Hasil UAS_files/libs/quarto-html/quarto.js"></script>
+<script src="Hasil UAS_files/libs/quarto-html/popper.min.js"></script>
+<script src="Hasil UAS_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Hasil UAS_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Hasil UAS_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Hasil UAS_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Hasil UAS_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Hasil UAS_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Hasil UAS_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Hasil UAS.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Melihat Pengaruh Inflasi dan Jumlah Uang Beredar Terhadap Indeks Harga Konsumen Pada Tahun 2020-2022</h1>
+<p class="subtitle lead">Metode Penelitian Politeknik APP Jakarta</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Robby Satrio </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 14, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/poltekapp.jpg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<section id="pendahuluan" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="pendahuluan"><span class="header-section-number">1</span> Pendahuluan</h2>
+<section id="latar-belakang" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="latar-belakang"><span class="header-section-number">1.1</span> Latar belakang</h3>
+<p>Indonesia merupakan negara yang besar dengan berbagai macam potensi ekonomi yang menjanjikan, saat ini banyak negara negara luar yang mulai melirik Indonesia sebagai negara dengan ekonomi yang besar. Ekonomi Indonesia adalah yang terbesar di Asia Tenggara dikarenakan Indonesia memiliki posisi yang baik dalam perkembangan ekonomi yang dialami. Pertumbuhan ekonomi Indonesia adalah sebesar 5,43% pada tahun 2013 menurut sisi pengeluaran pada konsumsi rumah tangga.</p>
+<p>Hal tersebut dapat berakibat pada Indeks Harga Konsumen (IHK) yang bersumber dari komoditas barang atau jasa, dan dapat mempengaruhi pada perhitungan IHK yang berdasar Survei Biaya Hidup (SBH). Tingkat harga suatu barang yang akan dibeli oleh masyarakat dapat dilihat berdasarkan perkembangan IHK. Selain itu IHK juga dapat melihat tingkat kenaikan harga, pendapatan, serta dapat pula digunakan sebagai indikator ekonomi dan menjadi tolak ukur atas besarnya biaya produksi. Maka dari itu, naik atau turunnya IHK dapat menyebabkan fluktuasi.</p>
+<table class="table">
+<caption>Tabel 1. Data IHK (Sumber : BPS)</caption>
+<tbody>
+<tr class="odd">
+<td><strong>Bulan</strong></td>
+<td><strong>2020</strong></td>
+<td><strong>2021</strong></td>
+<td><strong>2022</strong></td>
+</tr>
+<tr class="even">
+<td>Januari</td>
+<td>104,33</td>
+<td>105,95</td>
+<td>108,26</td>
+</tr>
+<tr class="odd">
+<td>Februari</td>
+<td>104,62</td>
+<td>106,06</td>
+<td>108,24</td>
+</tr>
+<tr class="even">
+<td>Maret</td>
+<td>104,72</td>
+<td>106,15</td>
+<td>108,95</td>
+</tr>
+<tr class="odd">
+<td>April</td>
+<td>104,8</td>
+<td>106,29</td>
+<td>109,98</td>
+</tr>
+<tr class="even">
+<td>Mei</td>
+<td>104,87</td>
+<td>106,63</td>
+<td>110,42</td>
+</tr>
+<tr class="odd">
+<td>Juni</td>
+<td>105,06</td>
+<td>106,46</td>
+<td>111,09</td>
+</tr>
+<tr class="even">
+<td>Juli</td>
+<td>104,95</td>
+<td>106,54</td>
+<td>111,8</td>
+</tr>
+<tr class="odd">
+<td>Agustus</td>
+<td>104,9</td>
+<td>106,57</td>
+<td>111,57</td>
+</tr>
+<tr class="even">
+<td>September</td>
+<td>104,85</td>
+<td>106,53</td>
+<td>112,87</td>
+</tr>
+<tr class="odd">
+<td>Oktober</td>
+<td>104,92</td>
+<td>106,66</td>
+<td>112,75</td>
+</tr>
+<tr class="even">
+<td>November</td>
+<td>105,21</td>
+<td>107,05</td>
+<td>112,85</td>
+</tr>
+<tr class="odd">
+<td>Desember</td>
+<td>105,68</td>
+<td>107,66</td>
+<td>113,59</td>
+</tr>
+</tbody>
+</table>
+<p>Dengan mengidentifikasi atas naik turunnya IHK, penulis mengharapkan bahwa pada waktu yang akan datang masalah-masalah ekonomi dapat berkurang. Indonesia merupakan negara yang memiliki sangat banyak potensi ekonomi, mulai dari sumber daya alam maupun sumber daya manusia. dengan demikian sangat penting untuk menjadikan semua itu terwujud yang menjadikan Indonesia menjadi negara maju yang dapat bersaing pada ekonomi global.</p>
+</section>
+<section id="ruang-lingkup" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="ruang-lingkup"><span class="header-section-number">1.2</span> Ruang lingkup</h3>
+<p>Dalam penelitian ini mengambil data pada tahun 2020-2022 menurut bulan yang diambil dari Badan Pusat Statistik (BPS). Variabel yang diteliti meliputi Indeks Harga Konsumen, Inflasi, dan Jumlah Uang Beredar M2 yang kemudian penulis jadikan objek penelitian.</p>
+</section>
+<section id="rumusan-masalah" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="rumusan-masalah"><span class="header-section-number">1.3</span> Rumusan masalah</h3>
+<ol type="1">
+<li><p>Apakah Inflasi dan jumlah uang beredar berpengaruh terhadap IHK?</p></li>
+<li><p>Bagaimana hubungan kedua variabel tersebut berpengaruh terhadap IHK?</p></li>
+</ol>
+</section>
+<section id="tujuan-dan-manfaat-penelitian" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="tujuan-dan-manfaat-penelitian"><span class="header-section-number">1.4</span> Tujuan dan manfaat penelitian</h3>
+<p>Tujuan dari penelitian ini adalah menganalis apakah variabel inflasi dan jumlah uang beredar berpengaruh secara simultan terhadap Indeks Harga Konsumen serta melihat bagaimana hubungan antara ketiga variabel tersebut. Dengan demikian kita dapat melihat bagaimana IHK dipengaruhi oleh variabel variabel ekonomi lainnya, sehingga dapat mengetahui bagaimana cara menjaga kestabilan ekonomi dengan melihat hubungan-hubungan yang ada.</p>
+</section>
+<section id="package" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="package"><span class="header-section-number">1.5</span> Package</h3>
+<p>Packages yang digunakan antara lain sebagai berikut:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="studi-pustaka" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="studi-pustaka"><span class="header-section-number">2</span> Studi pustaka</h2>
+<ol type="1">
+<li><p>Teori Keynes</p>
+<p>Inflasi menurut Keynes terjadi karena nafsu berlebihan dari sekelompok orang di masyarakat yang ingin memanfaatkan barang atau jasa dengan lebih banyak. Dikarenakan keingingan dalam kebutuhan secara berlebih, permintaan bertambah, sedangkan penawaran tetap, dengan itu yang akan terjadi adalah harga akan naik, maka dengan mencetak uang, pemerintah dapat membeli barang dan juga jasa. Inflasi juga disebabkan oleh keberhasilan pengusaha mendapatkan kredit. Kredit yang diperoleh akan menyebabkan permintaan agregat akan meningkat dikarenakan mereka membeli barang dan jasa, namun penawaran agregat tetap. Kondisi ini dapat berakibat pada kenaikan harga-harga</p></li>
+<li><p>Teori Kuantitas</p>
+<p>Kaum klasik mengatakan bahwa jumlah uang yang beredar akan menentukan tingkat harga. Penambahan uang beredar akan berakibat pada naiknya harga. Jika jumlah barng yang ditawarkan tetap, maka cepat atau lambat kenaikan harga akan menjadi dua kali lipat.</p></li>
+</ol>
+</section>
+<section id="metode-penelitian" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="metode-penelitian"><span class="header-section-number">3</span> Metode penelitian</h2>
+<section id="data" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="data"><span class="header-section-number">3.1</span> Data</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Tanggal</th>
+<th>M2</th>
+<th>Inflasi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Jan 20</td>
+<td>6,046,651.00</td>
+<td>0,39</td>
+</tr>
+<tr class="even">
+<td>Feb 20</td>
+<td>6,116,495.00</td>
+<td>0,28</td>
+</tr>
+<tr class="odd">
+<td>Mar 20</td>
+<td>6,440,457.39</td>
+<td>0,1</td>
+</tr>
+<tr class="even">
+<td>Apr 20</td>
+<td>6,238,267.00</td>
+<td>0,08</td>
+</tr>
+<tr class="odd">
+<td>Mei 20</td>
+<td>6,468,193.50</td>
+<td>0,07</td>
+</tr>
+<tr class="even">
+<td>Jun 20</td>
+<td>6,393,743.80</td>
+<td>0,18</td>
+</tr>
+<tr class="odd">
+<td>Jul 20</td>
+<td>6,567,725.02</td>
+<td>-0,1</td>
+</tr>
+<tr class="even">
+<td>Agu 20</td>
+<td>6,726,135.25</td>
+<td>-0,05</td>
+</tr>
+<tr class="odd">
+<td>Sep 20</td>
+<td>6,748,574.03</td>
+<td>0,07</td>
+</tr>
+<tr class="even">
+<td>Okt 20</td>
+<td>6,780,844.54</td>
+<td>0,28</td>
+</tr>
+<tr class="odd">
+<td>Nov 20</td>
+<td>6,817,456.68</td>
+<td>0,45</td>
+</tr>
+<tr class="even">
+<td>Des 20</td>
+<td>6,900,049.49</td>
+<td>0,26</td>
+</tr>
+<tr class="odd">
+<td>Jan 21</td>
+<td>6,767,407.65</td>
+<td>0,26</td>
+</tr>
+<tr class="even">
+<td>Feb 21</td>
+<td>6,817,787.91</td>
+<td>0,1</td>
+</tr>
+<tr class="odd">
+<td>Mar 21</td>
+<td>6,895,564.12</td>
+<td>0,08</td>
+</tr>
+<tr class="even">
+<td>Apr 21</td>
+<td>6,964,386.49</td>
+<td>0,13</td>
+</tr>
+<tr class="odd">
+<td>Mei 21</td>
+<td>7,004,093.08</td>
+<td>0,32</td>
+</tr>
+<tr class="even">
+<td>Jun 21</td>
+<td>7,130,061.42</td>
+<td>-0,16</td>
+</tr>
+<tr class="odd">
+<td>Jul 21</td>
+<td>7,160,560.33</td>
+<td>0,08</td>
+</tr>
+<tr class="even">
+<td>Agu 21</td>
+<td>7,211,500.72</td>
+<td>0,03</td>
+</tr>
+<tr class="odd">
+<td>Sep 21</td>
+<td>7,300,920.64</td>
+<td>-0,04</td>
+</tr>
+<tr class="even">
+<td>Okt 21</td>
+<td>7,491,704.38</td>
+<td>0,12</td>
+</tr>
+<tr class="odd">
+<td>Nov 21</td>
+<td>7,573,319.90</td>
+<td>0,37</td>
+</tr>
+<tr class="even">
+<td>Des 21</td>
+<td>7,870,452.85</td>
+<td>0,57</td>
+</tr>
+<tr class="odd">
+<td>Jan 22</td>
+<td>7646789.19</td>
+<td>0,56</td>
+</tr>
+<tr class="even">
+<td>Feb 22</td>
+<td>7690134.5</td>
+<td>-0,02</td>
+</tr>
+<tr class="odd">
+<td>Mar 22</td>
+<td>7810949.32</td>
+<td>0,66</td>
+</tr>
+<tr class="even">
+<td>Apr 22</td>
+<td>7911484.49</td>
+<td>0,95</td>
+</tr>
+<tr class="odd">
+<td>Mei 22</td>
+<td>7854186.71</td>
+<td>0,4</td>
+</tr>
+<tr class="even">
+<td>Jun 22</td>
+<td>7890747.01</td>
+<td>0,61</td>
+</tr>
+<tr class="odd">
+<td>Jul 22</td>
+<td>7845551.91</td>
+<td>0,64</td>
+</tr>
+<tr class="even">
+<td>Agu 22</td>
+<td>7897628.21</td>
+<td>-0,21</td>
+</tr>
+<tr class="odd">
+<td>Sep 22</td>
+<td>7962693.36</td>
+<td>1,17</td>
+</tr>
+<tr class="even">
+<td>Okt 22</td>
+<td>8223055.02</td>
+<td>-0,11</td>
+</tr>
+<tr class="odd">
+<td>Nov 22</td>
+<td>8297349.51</td>
+<td>0,09</td>
+</tr>
+<tr class="even">
+<td>Des 22</td>
+<td>8528022.31</td>
+<td>0,66</td>
+</tr>
+</tbody>
+</table>
+<p>penelitian ini menggunakan data jumlah uang beredar M2 yang dilambangkan M2 pada tabel dan data inflasi. Data yang diambil menurut bulan dari tahun 2020-2022</p>
+</section>
+<section id="metode-analisis" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="metode-analisis"><span class="header-section-number">3.2</span> Metode analisis</h3>
+<p>Metode yang dipilih adalah regresi multivariat dengan 2 variabel independen. Pengujian dilakukan dengan asumsi klasik yaitu, Uji F (simultan) dan Uji t (parsial). Penelitian ini bermaksud mencari hubungan jumlah uang beredar dan inflasi terhadap Indeks Harga Konsumen. Spesifikasi yang dilakukan adalah:</p>
+<p><span class="math display">\[
+y_{t}=\beta_0 + \beta_1 x_1+ \beta_1 x_2 + e
+\]</span></p>
+<p>di mana <span class="math inline">\(y_t\)</span> adalah Indeks harga konsumen, <span class="math inline">\(x_1\)</span> adalah Jumlah Uang Beredar M2, dan <span class="math inline">\(x_2\)</span> adalah Inflasi.</p>
+</section>
+</section>
+<section id="pembahasan" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="pembahasan"><span class="header-section-number">4</span> Pembahasan</h2>
+<section id="pembahasan-masalah" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="pembahasan-masalah"><span class="header-section-number">4.1</span> Pembahasan masalah</h3>
+<p>Indeks Harga Konsumen adalah sebuah indeks yang menggambarkan perubahan harga barang dan jasa yang dikonsumsi oleh masyarakat secara umum pada suatu periode tertentu dengan periode yang telah ditetapkan. Perkembangan IHK dapat memperlihatkan tingkat harga suatu barang dan jasa yang dibeli masyarakat. Tingkat kenaikan dan penurunan IHK dapat menyebabkan fluktuasi karena IHK. Dengan melihat perkembangan IHK kita juga dapat mengetahui tingkat kenaikan harga, pendapatan, dan digunakan sebagi indikator ekonomi.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="GRAFIK%20IHK.png" class="img-fluid figure-img" width="496"></p>
+<figcaption class="figure-caption">Gambar 1. Indeks Harga Konsumen</figcaption>
+</figure>
+</div>
+<p>Berdasarkan Gambar 1 diatas dapat dilihat bahwa terjadi peningkatan pada tahun 2013 dan menurun pada tahun 2014. Perubahan tersebut dapat menandakan tingkat kenaikan (inflasi) atau tinggkat penurunan (deflasi) dari barang atau jasa. IHK merupakan salah satu indikator ekonomi yang sangat penting dan digunakan untuk mewakili perubahan tingkat harga rata-rata eceran ditingkat konsumen pada sejumlah jenis barang tertentu.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Grafik%20Inflasi.png" class="img-fluid figure-img" width="495"></p>
+<figcaption class="figure-caption">Gambar 2. Inflasi</figcaption>
+</figure>
+</div>
+<p>Dapat dilihat pada Gambar 2 bahwa telah terjadi peningkatan pada tahun 2013 dan 2013 pula yang menduduki peringkat tertinggi dalam kurun waktu 2012-2019 yaitu sebesar 8,38% . Kenaikan inflasi dapat menyebabkan persentase pertumbuhan ekonomi menjadi tidak berarti yang kemudian berdampak pada naiknya angka kemiskinan. Hal tersebut juga dapat menyebabkan peningkatan IHK, yang mana kenaikan IHK juga berdampak pada kenaikan suku bunga, meningkatkan pertumbuhan uang beredar, dan juga meningkatkan daya tarik mata uang, dan meningkatkan inflasi. Ekspansi kredit dapat dihambat oleh peningkatan suku bunga, selain itu juga dapat mengurangi daya beli masyarakat untuk konsumsi rumah tangga. Penurunan suku bunga kredit akan menurunkan biaya modal perusahaan untuk melakukan investasi dalam meningkatkan aktivitas konsumsi dan investasi. Pertumbuhan uang beredar mengakibatkan kenaikan harga-harga barang dan jasa yang akhirnya dapat menyebabkan masyarakat ingin mendapatkan barang dan jasa yang diinginkan melebih output produksi. Jika barang dan jasa mengalami peningkatan, maka jumlah uang yang beredar akan meningkat. Perubahan kurs rupiah terhadap kurs USD dipengaruhi oleh banyak faktor salah satunya pertumbuhan ekonomi. Jika kurs rupiah terus melemah maka akan membuat para produsen kesulitan untuk mendapatkan bahan baku dan barang modal yang mempunyai kandungan impor tinggi sehingga akan berdampak pada naiknya biaya impor barang dalam keperluan proses produksi sehingga mempengaruhi tingkat harga domestik yang merupakan cerminan dari naiknya IHK.</p>
+</section>
+<section id="analisis-masalah" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="analisis-masalah"><span class="header-section-number">4.2</span> Analisis Masalah</h3>
+<section id="regresi" class="level4" data-number="4.2.1">
+<h4 data-number="4.2.1" class="anchored" data-anchor-id="regresi"><span class="header-section-number">4.2.1</span> Regresi</h4>
+<p>Hasil regresinya adalah</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>DataUAS<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"C:/Metopel/Latihan/DataUAS.xlsx"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>DataUAS<span class="ot">&lt;-</span><span class="fu">lm</span>(IHK<span class="sc">~</span>Inflasi<span class="sc">+</span>M2, <span class="at">data =</span> DataUAS)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(DataUAS)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = IHK ~ Inflasi + M2, data = DataUAS)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.55998 -0.75798 -0.03419  0.77105  1.90452 
+
+Coefficients:
+             Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 7.995e+01  2.217e+00  36.060  &lt; 2e-16 ***
+Inflasi     8.428e-01  6.545e-01   1.288    0.207    
+M2          3.784e-06  3.139e-07  12.054 1.24e-13 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 1.134 on 33 degrees of freedom
+Multiple R-squared:  0.8501,    Adjusted R-squared:  0.841 
+F-statistic: 93.56 on 2 and 33 DF,  p-value: 2.519e-14</code></pre>
+</div>
+</div>
+<p>Dapat dilihat hasil regresinya dan jika dimasukkan kedalam model akan menjadi sebagai berikut</p>
+<p><span class="math display">\[
+y_t= 7,995e+01 + 3,784e-06 x_1 + 8,428e-01 x_2 + \mu_t
+\]</span></p>
+<p>Dengan begitu dapat dijelaskan sebagai berikut:</p>
+<ol type="1">
+<li><p>Konstanta 𝜷 adalah sebesar 7,995e+01 menunjukkan konstanta dari IHK (Y), dengan asumsi nilai dari masing masing variabel bebas (Jumlah uang beredar dan inflasi) adalah konstan.</p></li>
+<li><p>Koefisien regresi jumlah uang beredar sebesar 3,784e-06 menyatakan adanya hubungan yang positif, yang artinya antara Jumlah Uang Beredar M2 dengan IHK menunjukkan hubungan yang searah. Dengan begitu kenaikan Jumlah uang Beredar M2 akan mengakibatkan kenaikan nilai IHK</p></li>
+<li><p>Koefisien regresi Inflasi sebesar 8,428e-01 menyatakan adanya hubungan yang positif, yang menandakan antara Inflasi dan IHK memiliki hubungan yang searah, setiap kenaikan inflasi akan mengakibatkan kenaikan IHK.</p></li>
+</ol>
+</section>
+<section id="uji-signifikansi-f-simultan" class="level4" data-number="4.2.2">
+<h4 data-number="4.2.2" class="anchored" data-anchor-id="uji-signifikansi-f-simultan"><span class="header-section-number">4.2.2</span> Uji Signifikansi F (Simultan)</h4>
+<p>Berdasarkan hasil diatas, didapatkan nilai sebesar F hitung = 93,56 dengan nilai signifikansi sebesar 2,519e-14 &lt; 0,05. Hal ini menunjukkan bahwa variabel bebas ( Jumlah Uang Beredar M2 dan Inflasi ) secara simultan mempengaruhi variabel terikat (IHK) dan berpengaruh signifikan terhadap IHK.</p>
+</section>
+<section id="uji-signifikansi-t-parsial" class="level4" data-number="4.2.3">
+<h4 data-number="4.2.3" class="anchored" data-anchor-id="uji-signifikansi-t-parsial"><span class="header-section-number">4.2.3</span> Uji Signifikansi t (Parsial)</h4>
+<p>Uji t dilakukan untuk menguji pengaruh variabel independen secara individual.</p>
+<table class="table">
+<caption>Tabel 2. Uji Signifikansi t (Parsial)</caption>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>T</th>
+<th>Sig.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(Intercept)</td>
+<td>36,060</td>
+<td>2e-16</td>
+</tr>
+<tr class="even">
+<td>Inflasi</td>
+<td>1,288</td>
+<td>0,207</td>
+</tr>
+<tr class="odd">
+<td>Jumlah Uang Beredar M2</td>
+<td>12,054</td>
+<td>1,24e-13</td>
+</tr>
+</tbody>
+</table>
+<p>Berdasarkan hasil nilai yang diuji, jika nilai sig. &lt;0,05 maka variabel bebas berpengaruh signifikan terhadap variabel terikat. Jika nilai sig. &gt;0,05 maka variabel bebas tidak berpengaruh signifikan terhadap variabel terikat. Dapat dilihat Inflasi memiliki nilai sig. &gt;0,05, maka Inflasi tidak berpengaruh secara signifikan terhadap IHK. Sedangkan Jumlah Uang Beredar memiliki nilai sig. &lt;0,05, hal ini menunjukkan bahwa Jumlah Uang Beredar M2 berpengaruh secara signifikan terhadap IHK.</p>
+</section>
+<section id="hasil-koefisien-determinasi" class="level4" data-number="4.2.4">
+<h4 data-number="4.2.4" class="anchored" data-anchor-id="hasil-koefisien-determinasi"><span class="header-section-number">4.2.4</span> Hasil Koefisien Determinasi</h4>
+<p>Berdasarkan hasil yang telah diuji Nilai Koefisien Determinasi (<em>Adjusted R Square</em>) sebesar 0,841. Hal ini dapat dijelaskan bahwa Indeks Harga Konsumen (Y) dipengaruhi sebesar 84,1% oleh variabel Jumlah Uang Beredar dan variabel Inflasi, sementara sisanya dipengaruhi oleh variabel lain yang tidak dimasukkan ke dalam model.</p>
+</section>
+</section>
+</section>
+<section id="kesimpulan" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="kesimpulan"><span class="header-section-number">5</span> Kesimpulan</h2>
+<p>Berdasarkan hasil penelitian diatas, dapat ditarik kesimpulan sebagai berikut:</p>
+<ol type="1">
+<li>Inflasi dan Jumlah Uang Beredar M2 berpengaruh secara signifikan terhadap Indeks Harga Konsumen</li>
+<li>Inflasi dan Jumlah Uang Beredar M2 sama-sama menunjukkan hubungan positif, yang artinya jika salah satu atau kedua variabel bebas meningkat maka IHK juga akan meningkat.</li>
+<li>Hasil uji t (parsial) menunjukkan bahwa Jumlah Uang Beredar M2 secara signifikan mempengaruhi IHK, sedangkan Inflasi tidak berpengaruh secara signifikan terhadap IHK.</li>
+<li>Hasil uji koefisien determinasi menunjukkan nilai sebesar 0,841. Hal ini menjelaskan bahwa 84,1% Indeks Harga Konsumen dapat dijelaskan oleh variabel Inflasi dan Jumlah Uang Beredar M2 dan sisanya dipengaruhi oleh variabel lain.</li>
+</ol>
+</section>
+<section id="referensi" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="referensi"><span class="header-section-number">6</span> Referensi</h2>
+<p>Karlina, B. (2017). PENGARUH TINGKAT INFLASI, INDEKS HARGA KONSUMEN TERHADAP PDB DI INDONESIA PADA TAHUN 2011-2015. Jurnal Ekonomika dan Manajemen, 6(1), 16–27. https://doi.org/DOI: https://dx.doi.org/10.36080/jem.v6i1.335</p>
+<p>Langi, T., Masinambow, V., &amp; Siwu, H. (2014). ANALISIS PENGARUH SUKU BUNGA BI, JUMLAH UANG BEREDAR, DAN TINGKAT KURS TERHADAP TINGKAT INFLASI DI INDONESIA. Jurnal Berkala Ilmiah Efisiensi, 14(2), 44–58.</p>
+<p>Simanungkalit, E. (2020). PENGARUH INFLASI TERHADAP PERTUMBUHAN EKONOMI DI INDONESIA. Journal of Management Small and Medium Enterprises, 13(3), 327–340. https://doi.org/10.35508/jom.v13i3.3311</p>
+<p>SUMANTRI, F., &amp; Latifah, U. (2019). Faktor-faktor yang Mempengaruhi Indeks Harga Konsumen. WIDYA CIPTA Jurnal Sekretari dan Manajemen, 3(1), 25–34.</p>
+<p>TANIAL, B., SUMANTRI, F., &amp; ZAHRANI, P. (t.t.). Pengaruh Jumlah Uang Beredar, Tingkat Suku Bunga Dan Indeks Harga Konsumen Terhadap Inflasi Periode 2017- 2021. Jurnal Bisnis Kompetif, 1(3). https://doi.org/10.35446/bisniskompetif.v1i3.1190</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
